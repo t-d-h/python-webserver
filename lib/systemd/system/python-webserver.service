@@ -2,7 +2,7 @@
 Description=Run web server
 
 [Service]
-ExecStart=/bin/python3 /var/python-webserver/server.py
+ExecStart=/bin/python3 /var/python-webserver/main.py
 
 [Install]
 WantedBy=multi-user.target

@@ -1,2 +1,3 @@
 #!/bin/bash
-rm -rf /var/web/*
+systemctl daemon-reload
+systemctl start python-webserver
