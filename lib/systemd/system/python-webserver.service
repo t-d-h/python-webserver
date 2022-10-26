@@ -1,0 +1,8 @@
+[Unit]
+Description=Run web server
+
+[Service]
+ExecStart=/bin/python3 /var/python-webserver/server.py
+
+[Install]
+WantedBy=multi-user.target
