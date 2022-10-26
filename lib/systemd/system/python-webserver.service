@@ -2,6 +2,7 @@
 Description=Run web server
 
 [Service]
+WorkingDirectory=/var/python-webserver/
 Restart=on-failure
 User=root
 Group=root
